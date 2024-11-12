@@ -174,6 +174,9 @@ section {
     height: 80vh;
 }
 
+
+
+
 .section__pic-container {
     display: flex;
     height: 400px;
@@ -249,6 +252,8 @@ section {
     background: rgb(53,53,53);
     color: white;
 }
+
+
 
 .btn-color-1:hover {
     background: rgb(0,0,0);
@@ -437,3 +442,43 @@ footer {
 footer p {
     text-align: center;
 }
+
+
+
+/* 3D Effects and Shadows: Add shadows to make elements "pop" with a 3D effect. */
+.details-container, .project-title, .btn {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.icon, .project-img {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.icon:hover, .project-img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+/*  Neon Effects: Give a neon glow to headings and links */
+.title, .experience-sub-title {
+    color: #6c63ff;
+    text-shadow: 0px 0px 10px #6c63ff;
+}
+
+a:hover {
+    color: #6c63ff;
+    text-shadow: 0px 0px 5px #6c63ff;
+}
+
+
+
+
+
+
+
+
+
